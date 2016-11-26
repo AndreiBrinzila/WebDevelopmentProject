@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
+    <Servertime>2016-11-26T15:04:54.323</Servertime>
     <Traincode>E248 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
+    <Querytime>15:04:54</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Malahide</Origin>
     <Destination>Bray</Destination>
@@ -13,7 +13,7 @@
     <Destinationtime>16:40</Destinationtime>
     <Status>No Information</Status>
     <Lastlocation />
-    <Duein>50</Duein>
+    <Duein>30</Duein>
     <Late>0</Late>
     <Exparrival>15:33</Exparrival>
     <Expdepart>15:34</Expdepart>
@@ -24,22 +24,22 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
+    <Servertime>2016-11-26T15:04:54.323</Servertime>
     <Traincode>D809 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
+    <Querytime>15:04:54</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Dublin Pearse</Origin>
     <Destination>Drogheda</Destination>
     <Origintime>14:44</Origintime>
     <Destinationtime>15:47</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>21</Duein>
-    <Late>0</Late>
-    <Exparrival>15:04</Exparrival>
-    <Expdepart>15:05</Expdepart>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Clongriffin</Lastlocation>
+    <Duein>2</Duein>
+    <Late>1</Late>
+    <Exparrival>15:05</Exparrival>
+    <Expdepart>15:06</Expdepart>
     <Scharrival>15:04</Scharrival>
     <Schdepart>15:05</Schdepart>
     <Direction>To Drogheda</Direction>
@@ -47,11 +47,11 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
+    <Servertime>2016-11-26T15:04:54.323</Servertime>
     <Traincode>D810 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
+    <Querytime>15:04:54</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Dublin Pearse</Origin>
     <Destination>Drogheda</Destination>
@@ -59,7 +59,7 @@
     <Destinationtime>16:48</Destinationtime>
     <Status>No Information</Status>
     <Lastlocation />
-    <Duein>82</Duein>
+    <Duein>62</Duein>
     <Late>0</Late>
     <Exparrival>16:05</Exparrival>
     <Expdepart>16:06</Expdepart>
@@ -70,11 +70,11 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
+    <Servertime>2016-11-26T15:04:54.323</Servertime>
     <Traincode>P616 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
+    <Querytime>15:04:54</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Drogheda</Origin>
     <Destination>Dublin Pearse</Destination>
@@ -82,7 +82,7 @@
     <Destinationtime>16:19</Destinationtime>
     <Status>No Information</Status>
     <Lastlocation />
-    <Duein>73</Duein>
+    <Duein>53</Duein>
     <Late>0</Late>
     <Exparrival>15:56</Exparrival>
     <Expdepart>15:57</Expdepart>
@@ -93,22 +93,22 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
+    <Servertime>2016-11-26T15:04:54.323</Servertime>
     <Traincode>E118 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
+    <Querytime>15:04:54</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Malahide</Origin>
     <Destination>Greystones</Destination>
     <Origintime>15:00</Origintime>
     <Destinationtime>16:20</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>20</Duein>
-    <Late>0</Late>
-    <Exparrival>15:03</Exparrival>
-    <Expdepart>15:04</Expdepart>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Portmarnock</Lastlocation>
+    <Duein>1</Duein>
+    <Late>1</Late>
+    <Exparrival>15:04</Exparrival>
+    <Expdepart>15:05</Expdepart>
     <Scharrival>15:03</Scharrival>
     <Schdepart>15:04</Schdepart>
     <Direction>To Greystones</Direction>
@@ -116,45 +116,22 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
-    <Traincode>E816 </Traincode>
-    <Stationfullname>Portmarnock</Stationfullname>
-    <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
-    <Traindate>26 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Malahide</Destination>
-    <Origintime>13:30</Origintime>
-    <Destinationtime>14:50</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Departed Clongriffin</Lastlocation>
-    <Duein>2</Duein>
-    <Late>2</Late>
-    <Exparrival>14:45</Exparrival>
-    <Expdepart>14:46</Expdepart>
-    <Scharrival>14:44</Scharrival>
-    <Schdepart>14:44</Schdepart>
-    <Direction>To Malahide</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-26T14:44:00.677</Servertime>
+    <Servertime>2016-11-26T15:04:54.323</Servertime>
     <Traincode>E817 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>14:44:00</Querytime>
+    <Querytime>15:04:54</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Bray</Origin>
     <Destination>Malahide</Destination>
     <Origintime>14:10</Origintime>
     <Destinationtime>15:20</Destinationtime>
     <Status>En Route</Status>
-    <Lastlocation>Arrived Sandymount</Lastlocation>
-    <Duein>32</Duein>
-    <Late>2</Late>
-    <Exparrival>15:15</Exparrival>
-    <Expdepart>15:16</Expdepart>
+    <Lastlocation>Departed Killester</Lastlocation>
+    <Duein>13</Duein>
+    <Late>3</Late>
+    <Exparrival>15:17</Exparrival>
+    <Expdepart>15:17</Expdepart>
     <Scharrival>15:14</Scharrival>
     <Schdepart>15:14</Schdepart>
     <Direction>To Malahide</Direction>

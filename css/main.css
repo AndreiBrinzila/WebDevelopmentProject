@@ -9,12 +9,17 @@
   width:100%;
 }
 
+
+#moreTimes{
+  font-size: 1.2em;
+}
+
 .form-control{
   height: 70px;
   font-size: 1.8em;
 }
 .btn-success{
- text-align: right;
+float:right;
 }
 
 body{

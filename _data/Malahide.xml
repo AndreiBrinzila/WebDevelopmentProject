@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>E225 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>18:17</Origintime>
+    <Destinationtime>19:27</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>28</Duein>
+    <Late>0</Late>
+    <Exparrival>00:00</Exparrival>
+    <Expdepart>18:17</Expdepart>
+    <Scharrival>00:00</Scharrival>
+    <Schdepart>18:17</Schdepart>
+    <Direction>To Bray</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>O</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>E227 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>19:15</Origintime>
+    <Destinationtime>20:24</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>86</Duein>
+    <Late>0</Late>
+    <Exparrival>00:00</Exparrival>
+    <Expdepart>19:15</Expdepart>
+    <Scharrival>00:00</Scharrival>
+    <Schdepart>19:15</Schdepart>
+    <Direction>To Bray</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>O</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>D816 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Dublin Pearse</Origin>
+    <Destination>Drogheda</Destination>
+    <Origintime>17:58</Origintime>
+    <Destinationtime>19:04</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>38</Duein>
+    <Late>0</Late>
+    <Exparrival>18:26</Exparrival>
+    <Expdepart>18:27</Expdepart>
+    <Scharrival>18:26</Scharrival>
+    <Schdepart>18:27</Schdepart>
+    <Direction>To Drogheda</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>D817 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Dublin Pearse</Origin>
+    <Destination>Drogheda</Destination>
+    <Origintime>18:16</Origintime>
+    <Destinationtime>19:20</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>53</Duein>
+    <Late>0</Late>
+    <Exparrival>18:41</Exparrival>
+    <Expdepart>18:42</Expdepart>
+    <Scharrival>18:41</Scharrival>
+    <Schdepart>18:42</Schdepart>
+    <Direction>To Drogheda</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>P620 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Drogheda</Origin>
+    <Destination>Dublin Pearse</Destination>
+    <Origintime>18:00</Origintime>
+    <Destinationtime>19:03</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>49</Duein>
+    <Late>0</Late>
+    <Exparrival>18:38</Exparrival>
+    <Expdepart>18:38</Expdepart>
+    <Scharrival>18:38</Scharrival>
+    <Schdepart>18:38</Schdepart>
+    <Direction>To Dublin Pearse</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>E822 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>16:55</Origintime>
+    <Destinationtime>18:05</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Harmonstown</Lastlocation>
+    <Duein>16</Duein>
+    <Late>0</Late>
+    <Exparrival>18:05</Exparrival>
+    <Expdepart>00:00</Expdepart>
+    <Scharrival>18:05</Scharrival>
+    <Schdepart>00:00</Schdepart>
+    <Direction>To Malahide</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>D</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T17:49:25.243</Servertime>
+    <Traincode>E825 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>17:49:25</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>17:55</Origintime>
+    <Destinationtime>19:06</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>77</Duein>
+    <Late>0</Late>
+    <Exparrival>19:06</Exparrival>
+    <Expdepart>00:00</Expdepart>
+    <Scharrival>19:06</Scharrival>
+    <Schdepart>00:00</Schdepart>
+    <Direction>To Malahide</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>D</Locationtype>
+  </objStationData>
+</ArrayOfObjStationData>

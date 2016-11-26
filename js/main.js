@@ -1,34 +1,29 @@
 // Load station names 
-$(document).ready(function(){ 
-	$.ajax({ 
+var stationsArray = [];
+
+var loadTrainStations = function() {
+	$.ajax({
 		type: "GET",
 		url: "_data/getAllStations.xml",
 		dataType: "xml",
 		success: function(xml) { 
-		/*
-			$.each(xml.find("StationDesc"), function(){
-				console.log(this.index + " : " + this.stationName);
-			});
-		
-			$.parseXML(xml).find('objStation').each(function(index){
-				var stationName = $(this).find('StationDesc').text();
-				console.log(stationName);
-			});
-			
-			// SORTA WORKING ONE HERE -->
-			$(xml).find("StationDesc").each(function(index, stationName) {
-				console.log(index + " : " + stationName);
-			});
-		*/	
-			var stations = [];
+			// Loop through each node in the xml stations file
 			$(xml).find("objStation").each(function(index) {
 				var stationName = $(this).find('StationDesc').text();
 				
-				console.log(stationName);
+				stationsArray.push(stationName);
 				
-				//console.log(index + " : " + stationName);
+				//console.log(stationName);
 			});
+			console.log(stationsArray);
 		}
+	});
+}
+
+$(document).ready(function(){ 
+	loadTrainStations();
+	$("#trainStationSearch").autocomplete({
+		source: stationsArray
 	});
 });
 

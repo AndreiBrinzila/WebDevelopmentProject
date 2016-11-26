@@ -20,24 +20,23 @@
   font-size: 1.8em;
 }
 .btn-success{
-float:right;
+  float:right;
 }
 
 body{
-background-image: url(/WebDevelopmentProject/trainPhoto.jpg);
-opacity: 1.0;
-height: 100%; 
+  background: url(/WebDevelopmentProject/trainPhoto.jpg) no-repeat center fixed; 
+  background-size: cover;
 }
 
 .jumbotron {
   display: inline-block;
     position: fixed;
-    top: 0;
+    top: 70px;
     bottom: 0;
     left: 0;
     right: 0;
     width: 80%;
-    height: 70%;
+    height: 80%;
     margin: auto;
 }
 
@@ -52,6 +51,24 @@ height: 100%;
 }
 
 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #A32004;
+    color: white;
+  
+}
 
 
 

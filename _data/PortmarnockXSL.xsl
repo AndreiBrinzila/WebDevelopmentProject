@@ -3,7 +3,7 @@
 <xsl:template match="/">
 <html> 
 <body>
-  <h2><xsl:value-of select="ArrayOfObjStationData/objStationData/Stationfullname"/> Train Timetable</h2>
+  <h3><xsl:value-of select="ArrayOfObjStationData/objStationData/Stationfullname"/> Train &amp; Dart Timetable</h3>
   <table border="1">
     <tr bgcolor="#9acd32">
       <th style="text-align:left">Departed From</th>

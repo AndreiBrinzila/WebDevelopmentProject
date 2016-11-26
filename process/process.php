@@ -1,5 +1,5 @@
 <?php
-include 'getData.php';
+include 'dataLoaderWriter.php';
 
 $selection = $_POST["station"];
 

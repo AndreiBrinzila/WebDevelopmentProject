@@ -5,10 +5,37 @@
    ========================================================================== */
 
 
+.train-times-search{
+  width:100%;
+}
 
+.form-control{
+  height: 70px;
+  font-size: 1.8em;
+}
+.btn-success{
+ text-align: right;
+}
 
+body{
+background-image: url(/WebDevelopmentProject/trainPhoto.jpg);
+opacity: 1.0;
+height: 100%; 
+}
 
+.jumbotron {
+  margin-top: 220px;
+}
 
+.customList {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.customList li{
+  padding: 5px;
+
+}
 
 
 

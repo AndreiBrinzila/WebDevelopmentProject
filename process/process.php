@@ -3,12 +3,10 @@ include 'dataLoaderWriter.php';
 
 $selection = $_POST["station"];
 
-$stationURL = 'http://api.irishrail.ie/realtime/realtime.asmx/getStationDataByNameXML?StationDesc=' . $selection;
-$getAllStations = 'http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML';
+//$url = 'http://api.irishrail.ie/realtime/realtime.asmx/getStationDataByNameXML?StationDesc=' + $selection;
+$url = 'http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML';
 
-loadData($getAllStations, 'getAllStations');
-
-loadData($stationURL, $selection);
+loadData($url);
 
 echo "It worked!";
 

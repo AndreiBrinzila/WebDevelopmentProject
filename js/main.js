@@ -1,4 +1,4 @@
-
+// Load station names 
 $(document).ready(function(){ 
 	$.ajax({ 
 		type: "GET",
@@ -14,13 +14,20 @@ $(document).ready(function(){
 				var stationName = $(this).find('StationDesc').text();
 				console.log(stationName);
 			});
-		*/
-		
+			
+			// SORTA WORKING ONE HERE -->
 			$(xml).find("StationDesc").each(function(index, stationName) {
 				console.log(index + " : " + stationName);
 			});
-		
-			//console.log($(xml).find("StationDesc"));
+		*/	
+			var stations = [];
+			$(xml).find("objStation").each(function(index) {
+				var stationName = $(this).find('StationDesc').text();
+				
+				console.log(stationName);
+				
+				//console.log(index + " : " + stationName);
+			});
 		}
 	});
 });

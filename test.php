@@ -1,6 +1,6 @@
 <?php
-    include 'includes/header.php';
-    include 'includes/form.php';
-    include 'includes/footer.php';
+    include 'includes/header.inc.php';
+    include 'includes/form.inc.php';
+    include 'includes/footer.inc.php';
 ?>
 

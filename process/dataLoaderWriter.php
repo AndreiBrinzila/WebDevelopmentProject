@@ -6,7 +6,7 @@
  * Time: 00:18
  */
 
-// Function to load main train stops
+// Function take a data from and write to a new file
 
 function loadDataAndWrite($data, $file) {
     $writer = fopen($file, 'w') or die("Unable to write to file");
@@ -14,9 +14,11 @@ function loadDataAndWrite($data, $file) {
     fclose($writer);
 }
 
+// Function to load data from provided url
 function loadData($url) {
+	$dir = '../_data/';
     $file = file_get_contents($url);
-    loadDataAndWrite($file, 'temp.xml');
+    loadDataAndWrite($file, ($dir .= 'temp.xml'));
 }
 
 //$xml = file_get_contents("http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML");

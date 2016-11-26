@@ -9,12 +9,22 @@
   width:100%;
 }
 
+.train-times-search2{
+  width:35%;
+  float: right;
+  margin-top:-50px;
+}
+
+#moreTimes{
+  font-size: 1.2em;
+}
+
 .form-control{
   height: 70px;
   font-size: 1.8em;
 }
 .btn-success{
- text-align: right;
+float:right;
 }
 
 body{

@@ -8,6 +8,15 @@
 .train-times-search{
   width:100%;
 }
+.train-times-search2{
+  width:30%;
+  float:right;
+}
+
+.train-times-search2 h2{
+  font-size: 1em;
+}
+
 
 
 #moreTimes{
@@ -29,7 +38,7 @@ height: 100%;
 }
 
 .jumbotron {
-  margin-top: 220px;
+  margin-top: 50px;
 }
 
 .customList {

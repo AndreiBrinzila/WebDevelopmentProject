@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objStationData>
-    <Servertime>2016-11-26T23:57:05.4</Servertime>
+    <Servertime>2016-11-26T23:55:58.883</Servertime>
     <Traincode>D823 </Traincode>
     <Stationfullname>Malahide</Stationfullname>
     <Stationcode>MHIDE</Stationcode>
-    <Querytime>23:57:05</Querytime>
+    <Querytime>23:55:58</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Dublin Pearse</Origin>
     <Destination>Dundalk</Destination>
@@ -13,7 +13,7 @@
     <Destinationtime>00:59</Destinationtime>
     <Status>En Route</Status>
     <Lastlocation>Arrived Portmarnock</Lastlocation>
-    <Duein>1</Duein>
+    <Duein>3</Duein>
     <Late>2</Late>
     <Exparrival>23:57</Exparrival>
     <Expdepart>23:58</Expdepart>
@@ -24,11 +24,11 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T23:57:05.4</Servertime>
+    <Servertime>2016-11-26T23:55:58.883</Servertime>
     <Traincode>E834 </Traincode>
     <Stationfullname>Malahide</Stationfullname>
     <Stationcode>MHIDE</Stationcode>
-    <Querytime>23:57:05</Querytime>
+    <Querytime>23:55:58</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Bray</Origin>
     <Destination>Malahide</Destination>
@@ -36,7 +36,7 @@
     <Destinationtime>00:05</Destinationtime>
     <Status>En Route</Status>
     <Lastlocation>Arrived Kilbarrack</Lastlocation>
-    <Duein>9</Duein>
+    <Duein>11</Duein>
     <Late>1</Late>
     <Exparrival>00:06</Exparrival>
     <Expdepart>00:00</Expdepart>

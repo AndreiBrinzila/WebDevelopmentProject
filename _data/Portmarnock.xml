@@ -1,140 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="_data/PortmarnockXSL.xsl"?>
-<ArrayOfObjStationData>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objStationData>
-    <Servertime>2016-11-26T15:04:54.323</Servertime>
-    <Traincode>E248 </Traincode>
+    <Servertime>2016-11-26T22:46:01.77</Servertime>
+    <Traincode>P709 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>15:04:54</Querytime>
-    <Traindate>26 Nov 2016</Traindate>
-    <Origin>Malahide</Origin>
-    <Destination>Bray</Destination>
-    <Origintime>15:30</Origintime>
-    <Destinationtime>16:40</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>30</Duein>
-    <Late>0</Late>
-    <Exparrival>15:33</Exparrival>
-    <Expdepart>15:34</Expdepart>
-    <Scharrival>15:33</Scharrival>
-    <Schdepart>15:34</Schdepart>
-    <Direction>To Bray</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-26T15:04:54.323</Servertime>
-    <Traincode>D809 </Traincode>
-    <Stationfullname>Portmarnock</Stationfullname>
-    <Stationcode>PMNCK</Stationcode>
-    <Querytime>15:04:54</Querytime>
-    <Traindate>26 Nov 2016</Traindate>
-    <Origin>Dublin Pearse</Origin>
-    <Destination>Drogheda</Destination>
-    <Origintime>14:44</Origintime>
-    <Destinationtime>15:47</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Departed Clongriffin</Lastlocation>
-    <Duein>2</Duein>
-    <Late>1</Late>
-    <Exparrival>15:05</Exparrival>
-    <Expdepart>15:06</Expdepart>
-    <Scharrival>15:04</Scharrival>
-    <Schdepart>15:05</Schdepart>
-    <Direction>To Drogheda</Direction>
-    <Traintype>Train</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-26T15:04:54.323</Servertime>
-    <Traincode>D810 </Traincode>
-    <Stationfullname>Portmarnock</Stationfullname>
-    <Stationcode>PMNCK</Stationcode>
-    <Querytime>15:04:54</Querytime>
-    <Traindate>26 Nov 2016</Traindate>
-    <Origin>Dublin Pearse</Origin>
-    <Destination>Drogheda</Destination>
-    <Origintime>15:43</Origintime>
-    <Destinationtime>16:48</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>62</Duein>
-    <Late>0</Late>
-    <Exparrival>16:05</Exparrival>
-    <Expdepart>16:06</Expdepart>
-    <Scharrival>16:05</Scharrival>
-    <Schdepart>16:06</Schdepart>
-    <Direction>To Drogheda</Direction>
-    <Traintype>Train</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-26T15:04:54.323</Servertime>
-    <Traincode>P616 </Traincode>
-    <Stationfullname>Portmarnock</Stationfullname>
-    <Stationcode>PMNCK</Stationcode>
-    <Querytime>15:04:54</Querytime>
+    <Querytime>22:46:01</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Drogheda</Origin>
-    <Destination>Dublin Pearse</Destination>
-    <Origintime>15:15</Origintime>
-    <Destinationtime>16:19</Destinationtime>
+    <Destination>Dublin Connolly</Destination>
+    <Origintime>22:05</Origintime>
+    <Destinationtime>23:01</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Malahide</Lastlocation>
+    <Duein>3</Duein>
+    <Late>3</Late>
+    <Exparrival>22:49</Exparrival>
+    <Expdepart>22:49</Expdepart>
+    <Scharrival>22:45</Scharrival>
+    <Schdepart>22:46</Schdepart>
+    <Direction>To Dublin Connolly</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:46:01.77</Servertime>
+    <Traincode>E713 </Traincode>
+    <Stationfullname>Portmarnock</Stationfullname>
+    <Stationcode>PMNCK</Stationcode>
+    <Querytime>22:46:01</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Dublin Connolly</Destination>
+    <Origintime>23:35</Origintime>
+    <Destinationtime>23:59</Destinationtime>
     <Status>No Information</Status>
     <Lastlocation />
     <Duein>53</Duein>
     <Late>0</Late>
-    <Exparrival>15:56</Exparrival>
-    <Expdepart>15:57</Expdepart>
-    <Scharrival>15:56</Scharrival>
-    <Schdepart>15:57</Schdepart>
-    <Direction>To Dublin Pearse</Direction>
+    <Exparrival>23:38</Exparrival>
+    <Expdepart>23:39</Expdepart>
+    <Scharrival>23:38</Scharrival>
+    <Schdepart>23:39</Schdepart>
+    <Direction>To Dublin Connolly</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:46:01.77</Servertime>
+    <Traincode>D823 </Traincode>
+    <Stationfullname>Portmarnock</Stationfullname>
+    <Stationcode>PMNCK</Stationcode>
+    <Querytime>22:46:01</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Dublin Pearse</Origin>
+    <Destination>Dundalk</Destination>
+    <Origintime>23:30</Origintime>
+    <Destinationtime>00:59</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>65</Duein>
+    <Late>0</Late>
+    <Exparrival>23:51</Exparrival>
+    <Expdepart>23:51</Expdepart>
+    <Scharrival>23:51</Scharrival>
+    <Schdepart>23:51</Schdepart>
+    <Direction>To Dundalk</Direction>
     <Traintype>Train</Traintype>
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T15:04:54.323</Servertime>
-    <Traincode>E118 </Traincode>
+    <Servertime>2016-11-26T22:46:01.77</Servertime>
+    <Traincode>E134 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>15:04:54</Querytime>
+    <Querytime>22:46:01</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Malahide</Origin>
     <Destination>Greystones</Destination>
-    <Origintime>15:00</Origintime>
-    <Destinationtime>16:20</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Arrived Portmarnock</Lastlocation>
-    <Duein>1</Duein>
-    <Late>1</Late>
-    <Exparrival>15:04</Exparrival>
-    <Expdepart>15:05</Expdepart>
-    <Scharrival>15:03</Scharrival>
-    <Schdepart>15:04</Schdepart>
+    <Origintime>23:05</Origintime>
+    <Destinationtime>00:25</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>23</Duein>
+    <Late>0</Late>
+    <Exparrival>23:08</Exparrival>
+    <Expdepart>23:09</Expdepart>
+    <Scharrival>23:08</Scharrival>
+    <Schdepart>23:09</Schdepart>
     <Direction>To Greystones</Direction>
     <Traintype>DART</Traintype>
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-26T15:04:54.323</Servertime>
-    <Traincode>E817 </Traincode>
+    <Servertime>2016-11-26T22:46:01.77</Servertime>
+    <Traincode>E833 </Traincode>
     <Stationfullname>Portmarnock</Stationfullname>
     <Stationcode>PMNCK</Stationcode>
-    <Querytime>15:04:54</Querytime>
+    <Querytime>22:46:01</Querytime>
     <Traindate>26 Nov 2016</Traindate>
     <Origin>Bray</Origin>
     <Destination>Malahide</Destination>
-    <Origintime>14:10</Origintime>
-    <Destinationtime>15:20</Destinationtime>
+    <Origintime>22:10</Origintime>
+    <Destinationtime>23:20</Destinationtime>
     <Status>En Route</Status>
-    <Lastlocation>Departed Killester</Lastlocation>
-    <Duein>13</Duein>
-    <Late>3</Late>
-    <Exparrival>15:17</Exparrival>
-    <Expdepart>15:17</Expdepart>
-    <Scharrival>15:14</Scharrival>
-    <Schdepart>15:14</Schdepart>
+    <Lastlocation>Departed Lansdowne Road</Lastlocation>
+    <Duein>30</Duein>
+    <Late>2</Late>
+    <Exparrival>23:15</Exparrival>
+    <Expdepart>23:16</Expdepart>
+    <Scharrival>23:14</Scharrival>
+    <Schdepart>23:14</Schdepart>
+    <Direction>To Malahide</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:46:01.77</Servertime>
+    <Traincode>E834 </Traincode>
+    <Stationfullname>Portmarnock</Stationfullname>
+    <Stationcode>PMNCK</Stationcode>
+    <Querytime>22:46:01</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>22:55</Origintime>
+    <Destinationtime>00:05</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>75</Duein>
+    <Late>0</Late>
+    <Exparrival>00:01</Exparrival>
+    <Expdepart>00:01</Expdepart>
+    <Scharrival>00:01</Scharrival>
+    <Schdepart>00:01</Schdepart>
     <Direction>To Malahide</Direction>
     <Traintype>DART</Traintype>
     <Locationtype>S</Locationtype>

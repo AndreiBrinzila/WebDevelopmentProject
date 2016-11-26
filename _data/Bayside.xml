@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationData>
+    <Servertime>2016-11-26T22:55:48.32</Servertime>
+    <Traincode>E234 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>22:55:48</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>22:55</Origintime>
+    <Destinationtime>00:04</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>5</Duein>
+    <Late>0</Late>
+    <Exparrival>23:00</Exparrival>
+    <Expdepart>23:00</Expdepart>
+    <Scharrival>23:00</Scharrival>
+    <Schdepart>23:00</Schdepart>
+    <Direction>To Bray</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:55:48.32</Servertime>
+    <Traincode>E711 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>22:55:48</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Dublin Connolly</Destination>
+    <Origintime>23:20</Origintime>
+    <Destinationtime>23:44</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>30</Duein>
+    <Late>0</Late>
+    <Exparrival>23:25</Exparrival>
+    <Expdepart>23:25</Expdepart>
+    <Scharrival>23:25</Scharrival>
+    <Schdepart>23:25</Schdepart>
+    <Direction>To Dublin Connolly</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:55:48.32</Servertime>
+    <Traincode>E714 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>22:55:48</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Dublin Connolly</Destination>
+    <Origintime>23:55</Origintime>
+    <Destinationtime>00:19</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>65</Duein>
+    <Late>0</Late>
+    <Exparrival>00:00</Exparrival>
+    <Expdepart>00:00</Expdepart>
+    <Scharrival>00:00</Scharrival>
+    <Schdepart>00:00</Schdepart>
+    <Direction>To Dublin Connolly</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:55:48.32</Servertime>
+    <Traincode>E937 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>22:55:48</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>21:55</Origintime>
+    <Destinationtime>23:04</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Raheny</Lastlocation>
+    <Duein>7</Duein>
+    <Late>4</Late>
+    <Exparrival>23:01</Exparrival>
+    <Expdepart>23:02</Expdepart>
+    <Scharrival>22:57</Scharrival>
+    <Schdepart>22:58</Schdepart>
+    <Direction>To Howth</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:55:48.32</Servertime>
+    <Traincode>E938 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>22:55:48</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>22:25</Origintime>
+    <Destinationtime>23:33</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Sydney Parade</Lastlocation>
+    <Duein>32</Duein>
+    <Late>0</Late>
+    <Exparrival>23:26</Exparrival>
+    <Expdepart>23:27</Expdepart>
+    <Scharrival>23:26</Scharrival>
+    <Schdepart>23:27</Schdepart>
+    <Direction>To Howth</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-26T22:55:48.32</Servertime>
+    <Traincode>E939 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>22:55:48</Querytime>
+    <Traindate>26 Nov 2016</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>22:30</Origintime>
+    <Destinationtime>23:48</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Dalkey</Lastlocation>
+    <Duein>50</Duein>
+    <Late>3</Late>
+    <Exparrival>23:44</Exparrival>
+    <Expdepart>23:45</Expdepart>
+    <Scharrival>23:41</Scharrival>
+    <Schdepart>23:42</Schdepart>
+    <Direction>To Howth</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+</ArrayOfObjStationData>

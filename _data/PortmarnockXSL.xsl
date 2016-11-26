@@ -3,7 +3,7 @@
 <xsl:template match="/">
 <html> 
 <body>
-  <h2>Train Timetable</h2>
+  <h2><xsl:value-of select="ArrayOfObjStationData/objStationData/Stationfullname"/> Train Timetable</h2>
   <table border="1">
     <tr bgcolor="#9acd32">
       <th style="text-align:left">Departed From</th>
@@ -11,12 +11,15 @@
 	 	 <th style="text-align:left">Train Type</th>
 	 	 <th style="text-align:left">Train Due</th>
     </tr>
+		<xsl:for-each select="ArrayOfObjStationData/objStationData">
+			<xsl:sort select="Duein"/>
     <tr>
-      <td><xsl:value-of select="ArrayOfObjStationData/objStationData/Origin"/></td>
-      <td><xsl:value-of select="ArrayOfObjStationData/objStationData/Destination"/></td>
-	 		<td><xsl:value-of select="ArrayOfObjStationData/objStationData/Traintype"/></td>
-	  	<td><xsl:value-of select="ArrayOfObjStationData/objStationData/Duein"/></td>
+      <td><xsl:value-of select="Origin"/></td>
+      <td><xsl:value-of select="Destination"/></td>
+	 		<td><xsl:value-of select="Traintype"/></td>
+	  	<td><xsl:value-of select="Duein"/></td>
     </tr>
+		</xsl:for-each>
   </table>
 </body>
 </html>

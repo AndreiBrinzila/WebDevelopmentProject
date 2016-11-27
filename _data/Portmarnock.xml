@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+=======
+<?xml-stylesheet type="text/xsl" href="_data/PortmarnockXSL.xsl"?>
+<ArrayOfObjStationData>
+>>>>>>> d813eb4553c0e4e5cf08adcc93b08b7279e6883b
   <objStationData>
     <Servertime>2016-11-27T22:21:04.453</Servertime>
     <Traincode>E813 </Traincode>

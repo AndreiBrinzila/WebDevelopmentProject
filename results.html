@@ -37,7 +37,7 @@ return xhttp.responseXML;
 
 function displayResult()
 {
-xml = loadXMLDoc("_data/Portmarnock.xml");
+xml = loadXMLDoc("_data/Portmarnock1.xml");
 xsl = loadXMLDoc("_data/PortmarnockXSL.xsl");
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
@@ -86,13 +86,15 @@ else if (document.implementation && document.implementation.createDocument)
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
   
-         <div id="example" /><!--Calls the Javascript xml/xsl function-->
+         <div id="example"></div><!--Calls the Javascript xml/xsl function-->
 
     </div>
 
 
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </div> <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 

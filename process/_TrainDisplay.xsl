@@ -2,9 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://api.irishrail.ie/realtime/">
 <xsl:output method="html"/>
 <xsl:output omit-xml-declaration="yes" encoding="UTF-8"/>
-<xsl:template match="/">
-<html> 
-<body>
+<xsl:template match="/x:ArrayOfObjStationData">
   <h3><xsl:value-of select="ArrayOfObjStationData/objStationData/Stationfullname"/> Train &amp; Dart Timetable</h3>
   <table border="1">
     <tr bgcolor="#9acd32">
@@ -23,8 +21,6 @@
     </tr>
 		</xsl:for-each>
   </table>
-</body>
-</html>
 </xsl:template>
 </xsl:stylesheet>
 

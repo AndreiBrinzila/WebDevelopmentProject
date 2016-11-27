@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+<ArrayOfObjStationData>
   <objStationData>
     <Servertime>2016-11-27T13:24:59.673</Servertime>
     <Traincode>D802 </Traincode>

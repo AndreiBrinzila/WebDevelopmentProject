@@ -5,7 +5,7 @@ var stationCodeArray = [];
 // Function that loads all train stations and places them in stationsArray
 var loadTrainStations = function() {
 	$.ajax({
-		type: "GET",
+		type: "POST",
 		url: "_data/getAllStations.xml",
 		dataType: "xml",
 		success: function(xml) {
@@ -19,9 +19,6 @@ var loadTrainStations = function() {
 				//console.log(stationName);
 			});
 		}
-	});
-	$.each(stationsArray, function(index, value) {
-		console.log(index + " : " + value);
 	});
 }
 

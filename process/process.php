@@ -19,6 +19,6 @@ $getAllStations = 'http://api.irishrail.ie/realtime/realtime.asmx/getAllStations
 
 loadData($getAllStations, 'getAllStations');
 
-loadData($stationCodeURL, $stationName);
+loadData($stationCodeURL, $stationCode);
 
 ?>

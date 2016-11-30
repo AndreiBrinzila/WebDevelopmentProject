@@ -53,7 +53,7 @@ var sendTrainStation = function() {
 			data: { stationCode: stationCode, station: station },
 			dataType: "xml",
 			success: function(data) {
-                loadResults(station);
+                loadResults(stationCode);
 			}
 		});
 		// Prevents process.php from reloading page
@@ -67,22 +67,31 @@ var loadResults = function(station) {
         console.log(typeof xmlData);
         console.log(xmlData);
         showXMLresults(xmlData, "#results");
-        /*
-        //showXMLresults(xmlData, "#results");
-        $(xmlData).find("objStationData").each(function() {
-            var expectedArrival = $(this).find("Exparrival");
-        });
-        */
     });
 };
 
+
 var showXMLresults = function(xmlData, div)  {
     console.log(xmlData);
+
+    var tableStructure = '<table><tr><th>Origin</th><th>Destination</th><th>Expected Arrival</th><th>Due In</th><th>Train Type</th></tr>';
+    var tableRows = "";
+
     $(xmlData).find("objStationData").each(function() {
+        var origin = $(this).find("Origin").text();
+        var destination = $(this).find("Destination").text();
         var expectedArrival = $(this).find("Exparrival").text();
-        console.log(expectedArrival);
-        $(div).append(expectedArrival);
+        var trainType = $(this).find("Traintype").text();
+        var dueTime = $(this).find("Duein").text();
+
+        tableRows += '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
+
+        console.log(tableRows);
+        //$(div).append(expectedArrival);
     });
+
+    tableStructure += tableRows + '</table>'
+    $(div).append(tableStructure);
 }
 
 function loadXMLDoc(filename)

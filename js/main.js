@@ -63,35 +63,51 @@ var sendTrainStation = function() {
 
 var loadResults = function(station) {
     $.get(("_data/" + station + ".xml"), function(xmlData){
-        console.log("It worked");
-        console.log(typeof xmlData);
-        console.log(xmlData);
         showXMLresults(xmlData, "#results");
     });
 };
 
 
 var showXMLresults = function(xmlData, div)  {
-    console.log(xmlData);
+    //console.log(xmlData);
 
     var tableStructure = '<table><tr><th>Origin</th><th>Destination</th><th>Expected Arrival</th><th>Due In</th><th>Train Type</th></tr>';
-    var tableRows = "";
+    var tableRows = '';
+    var lastTime = 0;
 
-    $(xmlData).find("objStationData").each(function() {
+    $(xmlData).find("objStationData").each(function(index) {
+        console.log(index);
         var origin = $(this).find("Origin").text();
         var destination = $(this).find("Destination").text();
         var expectedArrival = $(this).find("Exparrival").text();
         var trainType = $(this).find("Traintype").text();
         var dueTime = $(this).find("Duein").text();
 
-        tableRows += '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
+        var row = '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
 
-        console.log(tableRows);
-        //$(div).append(expectedArrival);
+        // Set first iteration
+        if(index == 0) {
+            lastTime = dueTime;
+            tableRows += row;
+        } else {
+            // Sort by Due Time
+            if(Number(dueTime) < Number(lastTime)) {
+                console.log(lastTime);
+                tableRows = row + tableRows;
+                lastTime = dueTime;
+                console.log("Due Time: " + dueTime + " - Last Time:" + lastTime);
+            } else {
+                console.log("The other one");
+                tableRows += row;
+            }
+        }
+
+        //tableRows += '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
+
     });
 
     tableStructure += tableRows + '</table>'
-    $(div).append(tableStructure);
+    $(div).html(tableStructure);
 }
 
 function loadXMLDoc(filename)

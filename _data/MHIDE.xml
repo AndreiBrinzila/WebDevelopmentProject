@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>P709 </Traincode>
+    <Servertime>2016-11-30T23:24:16.227</Servertime>
+    <Traincode>D823 </Traincode>
     <Stationfullname>Malahide</Stationfullname>
     <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
+    <Querytime>23:24:16</Querytime>
     <Traindate>30 Nov 2016</Traindate>
-    <Origin>Drogheda</Origin>
-    <Destination>Dublin Connolly</Destination>
-    <Origintime>22:05</Origintime>
-    <Destinationtime>23:01</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Departed Drogheda</Lastlocation>
-    <Duein>31</Duein>
-    <Late>1</Late>
-    <Exparrival>22:42</Exparrival>
-    <Expdepart>22:42</Expdepart>
-    <Scharrival>22:41</Scharrival>
-    <Schdepart>22:41</Schdepart>
-    <Direction>To Dublin Connolly</Direction>
+    <Origin>Dublin Pearse</Origin>
+    <Destination>Drogheda</Destination>
+    <Origintime>23:30</Origintime>
+    <Destinationtime>00:32</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>32</Duein>
+    <Late>0</Late>
+    <Exparrival>23:55</Exparrival>
+    <Expdepart>23:56</Expdepart>
+    <Scharrival>23:55</Scharrival>
+    <Schdepart>23:56</Schdepart>
+    <Direction>To Drogheda</Direction>
     <Traintype>Train</Traintype>
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
+    <Servertime>2016-11-30T23:24:16.227</Servertime>
     <Traincode>E713 </Traincode>
     <Stationfullname>Malahide</Stationfullname>
     <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
+    <Querytime>23:24:16</Querytime>
     <Traindate>30 Nov 2016</Traindate>
     <Origin>Malahide</Origin>
     <Destination>Dublin Connolly</Destination>
@@ -36,7 +36,7 @@
     <Destinationtime>23:59</Destinationtime>
     <Status>No Information</Status>
     <Lastlocation />
-    <Duein>84</Duein>
+    <Duein>11</Duein>
     <Late>0</Late>
     <Exparrival>00:00</Exparrival>
     <Expdepart>23:35</Expdepart>
@@ -47,138 +47,23 @@
     <Locationtype>O</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>D822 </Traincode>
+    <Servertime>2016-11-30T23:24:16.227</Servertime>
+    <Traincode>E834 </Traincode>
     <Stationfullname>Malahide</Stationfullname>
     <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
+    <Querytime>23:24:16</Querytime>
     <Traindate>30 Nov 2016</Traindate>
-    <Origin>Dublin Pearse</Origin>
-    <Destination>Dundalk</Destination>
-    <Origintime>22:30</Origintime>
-    <Destinationtime>23:56</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
+    <Origin>Bray</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>22:55</Origintime>
+    <Destinationtime>00:05</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Blackrock</Lastlocation>
     <Duein>44</Duein>
-    <Late>0</Late>
-    <Exparrival>22:54</Exparrival>
-    <Expdepart>22:55</Expdepart>
-    <Scharrival>22:54</Scharrival>
-    <Schdepart>22:55</Schdepart>
-    <Direction>To Dundalk</Direction>
-    <Traintype>Train</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>E133 </Traincode>
-    <Stationfullname>Malahide</Stationfullname>
-    <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Malahide</Origin>
-    <Destination>Greystones</Destination>
-    <Origintime>22:30</Origintime>
-    <Destinationtime>23:53</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>19</Duein>
-    <Late>0</Late>
-    <Exparrival>00:00</Exparrival>
-    <Expdepart>22:30</Expdepart>
-    <Scharrival>00:00</Scharrival>
-    <Schdepart>22:30</Schdepart>
-    <Direction>To Greystones</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>O</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>E134 </Traincode>
-    <Stationfullname>Malahide</Stationfullname>
-    <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Malahide</Origin>
-    <Destination>Greystones</Destination>
-    <Origintime>23:05</Origintime>
-    <Destinationtime>00:25</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>54</Duein>
-    <Late>0</Late>
-    <Exparrival>00:00</Exparrival>
-    <Expdepart>23:05</Expdepart>
-    <Scharrival>00:00</Scharrival>
-    <Schdepart>23:05</Schdepart>
-    <Direction>To Greystones</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>O</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>E831 </Traincode>
-    <Stationfullname>Malahide</Stationfullname>
-    <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Malahide</Destination>
-    <Origintime>21:00</Origintime>
-    <Destinationtime>22:20</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Departed Harmonstown</Lastlocation>
-    <Duein>16</Duein>
-    <Late>7</Late>
-    <Exparrival>22:27</Exparrival>
+    <Late>3</Late>
+    <Exparrival>00:08</Exparrival>
     <Expdepart>00:00</Expdepart>
-    <Scharrival>22:20</Scharrival>
-    <Schdepart>00:00</Schdepart>
-    <Direction>To Malahide</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>D</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>E832 </Traincode>
-    <Stationfullname>Malahide</Stationfullname>
-    <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Malahide</Destination>
-    <Origintime>21:30</Origintime>
-    <Destinationtime>22:50</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Arrived Seapoint</Lastlocation>
-    <Duein>48</Duein>
-    <Late>9</Late>
-    <Exparrival>22:59</Exparrival>
-    <Expdepart>00:00</Expdepart>
-    <Scharrival>22:50</Scharrival>
-    <Schdepart>00:00</Schdepart>
-    <Direction>To Malahide</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>D</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:08.723</Servertime>
-    <Traincode>E833 </Traincode>
-    <Stationfullname>Malahide</Stationfullname>
-    <Stationcode>MHIDE</Stationcode>
-    <Querytime>22:11:08</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Malahide</Destination>
-    <Origintime>22:00</Origintime>
-    <Destinationtime>23:20</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Departed Greystones</Lastlocation>
-    <Duein>71</Duein>
-    <Late>2</Late>
-    <Exparrival>23:22</Exparrival>
-    <Expdepart>00:00</Expdepart>
-    <Scharrival>23:20</Scharrival>
+    <Scharrival>00:05</Scharrival>
     <Schdepart>00:00</Schdepart>
     <Direction>To Malahide</Direction>
     <Traintype>DART</Traintype>

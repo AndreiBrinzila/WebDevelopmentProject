@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
   <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E232 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Howth</Origin>
-    <Destination>Bray</Destination>
-    <Origintime>21:45</Origintime>
-    <Destinationtime>22:54</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Arrived Tara Street</Lastlocation>
-    <Duein>1</Duein>
-    <Late>-1</Late>
-    <Exparrival>22:11</Exparrival>
-    <Expdepart>22:12</Expdepart>
-    <Scharrival>22:12</Scharrival>
-    <Schdepart>22:13</Schdepart>
-    <Direction>To Bray</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E234 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Howth</Origin>
-    <Destination>Bray</Destination>
-    <Origintime>22:55</Origintime>
-    <Destinationtime>00:04</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>72</Duein>
-    <Late>0</Late>
-    <Exparrival>23:22</Exparrival>
-    <Expdepart>23:23</Expdepart>
-    <Scharrival>23:22</Scharrival>
-    <Schdepart>23:23</Schdepart>
-    <Direction>To Bray</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
+    <Servertime>2016-11-30T23:24:47.207</Servertime>
     <Traincode>D823 </Traincode>
     <Stationfullname>Tara Street</Stationfullname>
     <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
+    <Querytime>23:24:47</Querytime>
     <Traindate>30 Nov 2016</Traindate>
     <Origin>Dublin Pearse</Origin>
     <Destination>Drogheda</Destination>
@@ -59,7 +13,7 @@
     <Destinationtime>00:32</Destinationtime>
     <Status>No Information</Status>
     <Lastlocation />
-    <Duein>82</Duein>
+    <Duein>9</Duein>
     <Late>0</Late>
     <Exparrival>23:32</Exparrival>
     <Expdepart>23:33</Expdepart>
@@ -70,114 +24,45 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>P672 </Traincode>
+    <Servertime>2016-11-30T23:24:47.207</Servertime>
+    <Traincode>E715 </Traincode>
     <Stationfullname>Tara Street</Stationfullname>
     <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
+    <Querytime>23:24:47</Querytime>
     <Traindate>30 Nov 2016</Traindate>
-    <Origin>Maynooth</Origin>
-    <Destination>Dublin Pearse</Destination>
-    <Origintime>22:05</Origintime>
-    <Destinationtime>22:49</Destinationtime>
+    <Origin>Greystones</Origin>
+    <Destination>Dublin Connolly</Destination>
+    <Origintime>23:10</Origintime>
+    <Destinationtime>00:04</Destinationtime>
     <Status>En Route</Status>
-    <Lastlocation>Arrived Leixlip (Louisa Bridge)</Lastlocation>
-    <Duein>34</Duein>
-    <Late>-2</Late>
-    <Exparrival>22:44</Exparrival>
-    <Expdepart>22:45</Expdepart>
-    <Scharrival>22:46</Scharrival>
-    <Schdepart>22:47</Schdepart>
-    <Direction>To Dublin Pearse</Direction>
-    <Traintype>Train</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>D822 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Dublin Pearse</Origin>
-    <Destination>Dundalk</Destination>
-    <Origintime>22:30</Origintime>
-    <Destinationtime>23:56</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>22</Duein>
-    <Late>0</Late>
-    <Exparrival>22:32</Exparrival>
-    <Expdepart>22:33</Expdepart>
-    <Scharrival>22:32</Scharrival>
-    <Schdepart>22:33</Schdepart>
-    <Direction>To Dundalk</Direction>
-    <Traintype>Train</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E136 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Howth</Origin>
-    <Destination>Greystones</Destination>
-    <Origintime>22:15</Origintime>
-    <Destinationtime>23:32</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>32</Duein>
-    <Late>0</Late>
-    <Exparrival>22:42</Exparrival>
-    <Expdepart>22:43</Expdepart>
-    <Scharrival>22:42</Scharrival>
-    <Schdepart>22:43</Schdepart>
-    <Direction>To Greystones</Direction>
+    <Lastlocation>Arrived Shankill</Lastlocation>
+    <Duein>36</Duein>
+    <Late>-1</Late>
+    <Exparrival>23:59</Exparrival>
+    <Expdepart>00:00</Expdepart>
+    <Scharrival>00:00</Scharrival>
+    <Schdepart>00:01</Schdepart>
+    <Direction>To Dublin Connolly</Direction>
     <Traintype>DART</Traintype>
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E133 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Malahide</Origin>
-    <Destination>Greystones</Destination>
-    <Origintime>22:30</Origintime>
-    <Destinationtime>23:53</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>47</Duein>
-    <Late>0</Late>
-    <Exparrival>22:57</Exparrival>
-    <Expdepart>22:58</Expdepart>
-    <Scharrival>22:57</Scharrival>
-    <Schdepart>22:58</Schdepart>
-    <Direction>To Greystones</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
+    <Servertime>2016-11-30T23:24:47.207</Servertime>
     <Traincode>E134 </Traincode>
     <Stationfullname>Tara Street</Stationfullname>
     <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
+    <Querytime>23:24:47</Querytime>
     <Traindate>30 Nov 2016</Traindate>
     <Origin>Malahide</Origin>
     <Destination>Greystones</Destination>
     <Origintime>23:05</Origintime>
     <Destinationtime>00:25</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>82</Duein>
-    <Late>0</Late>
-    <Exparrival>23:32</Exparrival>
-    <Expdepart>23:33</Expdepart>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Clontarf Road</Lastlocation>
+    <Duein>8</Duein>
+    <Late>-1</Late>
+    <Exparrival>23:31</Exparrival>
+    <Expdepart>23:32</Expdepart>
     <Scharrival>23:32</Scharrival>
     <Schdepart>23:33</Schdepart>
     <Direction>To Greystones</Direction>
@@ -185,210 +70,26 @@
     <Locationtype>S</Locationtype>
   </objStationData>
   <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E936 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Bray</Origin>
-    <Destination>Howth</Destination>
-    <Origintime>21:25</Origintime>
-    <Destinationtime>22:35</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Departed Grand Canal Dock</Lastlocation>
-    <Duein>6</Duein>
-    <Late>10</Late>
-    <Exparrival>22:16</Exparrival>
-    <Expdepart>22:17</Expdepart>
-    <Scharrival>22:06</Scharrival>
-    <Schdepart>22:07</Schdepart>
-    <Direction>To Howth</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E937 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Bray</Origin>
-    <Destination>Howth</Destination>
-    <Origintime>21:55</Origintime>
-    <Destinationtime>23:04</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Arrived Glenageary</Lastlocation>
-    <Duein>27</Duein>
-    <Late>2</Late>
-    <Exparrival>22:37</Exparrival>
-    <Expdepart>22:38</Expdepart>
-    <Scharrival>22:35</Scharrival>
-    <Schdepart>22:36</Schdepart>
-    <Direction>To Howth</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E938 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Bray</Origin>
-    <Destination>Howth</Destination>
-    <Origintime>22:25</Origintime>
-    <Destinationtime>23:33</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>55</Duein>
-    <Late>0</Late>
-    <Exparrival>23:05</Exparrival>
-    <Expdepart>23:06</Expdepart>
-    <Scharrival>23:05</Scharrival>
-    <Schdepart>23:06</Schdepart>
-    <Direction>To Howth</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E939 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Howth</Destination>
-    <Origintime>22:30</Origintime>
-    <Destinationtime>23:48</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>70</Duein>
-    <Late>0</Late>
-    <Exparrival>23:20</Exparrival>
-    <Expdepart>23:21</Expdepart>
-    <Scharrival>23:20</Scharrival>
-    <Schdepart>23:21</Schdepart>
-    <Direction>To Howth</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E832 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Malahide</Destination>
-    <Origintime>21:30</Origintime>
-    <Destinationtime>22:50</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Arrived Seapoint</Lastlocation>
-    <Duein>17</Duein>
-    <Late>7</Late>
-    <Exparrival>22:27</Exparrival>
-    <Expdepart>22:28</Expdepart>
-    <Scharrival>22:20</Scharrival>
-    <Schdepart>22:21</Schdepart>
-    <Direction>To Malahide</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>E833 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Greystones</Origin>
-    <Destination>Malahide</Destination>
-    <Origintime>22:00</Origintime>
-    <Destinationtime>23:20</Destinationtime>
-    <Status>En Route</Status>
-    <Lastlocation>Arrived Bray</Lastlocation>
-    <Duein>42</Duein>
-    <Late>2</Late>
-    <Exparrival>22:52</Exparrival>
-    <Expdepart>22:53</Expdepart>
-    <Scharrival>22:50</Scharrival>
-    <Schdepart>22:51</Schdepart>
-    <Direction>To Malahide</Direction>
-    <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
+    <Servertime>2016-11-30T23:24:47.207</Servertime>
     <Traincode>E834 </Traincode>
     <Stationfullname>Tara Street</Stationfullname>
     <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
+    <Querytime>23:24:47</Querytime>
     <Traindate>30 Nov 2016</Traindate>
     <Origin>Bray</Origin>
     <Destination>Malahide</Destination>
     <Origintime>22:55</Origintime>
     <Destinationtime>00:05</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>87</Duein>
-    <Late>0</Late>
-    <Exparrival>23:37</Exparrival>
-    <Expdepart>23:38</Expdepart>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Blackrock</Lastlocation>
+    <Duein>17</Duein>
+    <Late>3</Late>
+    <Exparrival>23:40</Exparrival>
+    <Expdepart>23:41</Expdepart>
     <Scharrival>23:37</Scharrival>
     <Schdepart>23:38</Schdepart>
     <Direction>To Malahide</Direction>
     <Traintype>DART</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>D932 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Dublin Pearse</Origin>
-    <Destination>Maynooth</Destination>
-    <Origintime>22:12</Origintime>
-    <Destinationtime>22:58</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>4</Duein>
-    <Late>0</Late>
-    <Exparrival>22:14</Exparrival>
-    <Expdepart>22:15</Expdepart>
-    <Scharrival>22:14</Scharrival>
-    <Schdepart>22:15</Schdepart>
-    <Direction>To Maynooth</Direction>
-    <Traintype>Train</Traintype>
-    <Locationtype>S</Locationtype>
-  </objStationData>
-  <objStationData>
-    <Servertime>2016-11-30T22:11:40.47</Servertime>
-    <Traincode>D933 </Traincode>
-    <Stationfullname>Tara Street</Stationfullname>
-    <Stationcode>TARA</Stationcode>
-    <Querytime>22:11:40</Querytime>
-    <Traindate>30 Nov 2016</Traindate>
-    <Origin>Dublin Pearse</Origin>
-    <Destination>Maynooth</Destination>
-    <Origintime>23:10</Origintime>
-    <Destinationtime>23:55</Destinationtime>
-    <Status>No Information</Status>
-    <Lastlocation />
-    <Duein>62</Duein>
-    <Late>0</Late>
-    <Exparrival>23:12</Exparrival>
-    <Expdepart>23:13</Expdepart>
-    <Scharrival>23:12</Scharrival>
-    <Schdepart>23:13</Schdepart>
-    <Direction>To Maynooth</Direction>
-    <Traintype>Train</Traintype>
     <Locationtype>S</Locationtype>
   </objStationData>
 </ArrayOfObjStationData><?xml-stylesheet type="text/xsl" href="process/TrainDisplay.xsl"?>

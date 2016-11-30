@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationData>
+    <Servertime>2016-11-30T23:18:56.98</Servertime>
+    <Traincode>E234 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>23:18:56</Querytime>
+    <Traindate>30 Nov 2016</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>22:55</Origintime>
+    <Destinationtime>00:04</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Clontarf Road</Lastlocation>
+    <Duein>10</Duein>
+    <Late>1</Late>
+    <Exparrival>23:27</Exparrival>
+    <Expdepart>23:28</Expdepart>
+    <Scharrival>23:26</Scharrival>
+    <Schdepart>23:27</Schdepart>
+    <Direction>To Bray</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-30T23:18:56.98</Servertime>
+    <Traincode>E715 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>23:18:56</Querytime>
+    <Traindate>30 Nov 2016</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Dublin Connolly</Destination>
+    <Origintime>23:10</Origintime>
+    <Destinationtime>00:04</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Departed Greystones</Lastlocation>
+    <Duein>38</Duein>
+    <Late>0</Late>
+    <Exparrival>23:55</Exparrival>
+    <Expdepart>23:56</Expdepart>
+    <Scharrival>23:55</Scharrival>
+    <Schdepart>23:56</Schdepart>
+    <Direction>To Dublin Connolly</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-30T23:18:56.98</Servertime>
+    <Traincode>E134 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>23:18:56</Querytime>
+    <Traindate>30 Nov 2016</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Greystones</Destination>
+    <Origintime>23:05</Origintime>
+    <Destinationtime>00:25</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Raheny</Lastlocation>
+    <Duein>19</Duein>
+    <Late>0</Late>
+    <Exparrival>23:36</Exparrival>
+    <Expdepart>23:37</Expdepart>
+    <Scharrival>23:36</Scharrival>
+    <Schdepart>23:37</Schdepart>
+    <Direction>To Greystones</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2016-11-30T23:18:56.98</Servertime>
+    <Traincode>E834 </Traincode>
+    <Stationfullname>Grand Canal Dock</Stationfullname>
+    <Stationcode>GCDK</Stationcode>
+    <Querytime>23:18:56</Querytime>
+    <Traindate>30 Nov 2016</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>22:55</Origintime>
+    <Destinationtime>00:05</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Salthill</Lastlocation>
+    <Duein>16</Duein>
+    <Late>2</Late>
+    <Exparrival>23:33</Exparrival>
+    <Expdepart>23:34</Expdepart>
+    <Scharrival>23:31</Scharrival>
+    <Schdepart>23:32</Schdepart>
+    <Direction>To Malahide</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+</ArrayOfObjStationData><?xml-stylesheet type="text/xsl" href="process/TrainDisplay.xsl"?>

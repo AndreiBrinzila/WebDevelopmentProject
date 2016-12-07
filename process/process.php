@@ -1,24 +1,41 @@
 <?php
 include 'dataLoaderWriter.php';
-/*
-$selection = $_POST["station"];
 
 
-//loadDataAndWrite($selection, $selection)
+// Reload all stations
+loadData('http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML', 'stops/AllStations');
 
-$stationURL = 'http://api.irishrail.ie/realtime/realtime.asmx/getStationDataByNameXML?StationDesc=' . $selection;
+// Checks if the train stationcode provided by ajax is a valid code returns if true or false.
+function checkTrainStationCodes($stationCode) {
+    $result = false;
+    $stationsXML = simplexml_load_file("../_data/stops/AllStations.xml") or die("Cannot load stations file...");
 
-*/
+    foreach ($stationsXML -> children() as $station) {
+        if($station -> StationCode == $stationCode) {
+            $result = true;
+        }
+    }
+    return $result;
+}
 
-$stationCode = $_POST["stationCode"];
-$stationName = $_POST["station"];
 
-$stationCodeURL = 'http://api.irishrail.ie/realtime/realtime.asmx/getStationDataByCodeXML?StationCode=' . $stationCode;
 
-$getAllStations = 'http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML';
+//$stationCodeArray.array_push()
 
-loadData($getAllStations, 'getAllStations');
+// Checks if stationCode post data is set
+if (isset($_POST["stationCode"])) {
+    $stationCode = $_POST["stationCode"];
 
-loadData($stationCodeURL, $stationCode);
+    if (checkTrainStationCodes($stationCode)) {
+        $stationCodeURL = 'http://api.irishrail.ie/realtime/realtime.asmx/getStationDataByCodeXML?StationCode=' . $stationCode;
+
+        //loadData($stationCodeURL, ("stations/" . $stationCode));
+    } else {
+        echo "INVALID DATA";
+    }
+}
+else {
+    echo "INVALID DATA";
+}
 
 ?>

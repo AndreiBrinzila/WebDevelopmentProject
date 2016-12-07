@@ -18,10 +18,6 @@ function loadDataAndWrite($data, $file) {
 function loadData($url, $fileName) {
 	$dir = '../_data/';
     $file = file_get_contents($url);
-    if($fileName != 'getAllStations') {
-        // append stylesheet source to file
-        $file .= '<?xml-stylesheet type="text/xsl" href="process/TrainDisplay.xsl"?>';
-    }
 
     loadDataAndWrite($file, ($dir .= $fileName . '.xml'));
 }

@@ -2,11 +2,11 @@
 var stationsArray = [];
 var stationCodeArray = [];
 
-// Function that loads all train stations and places them in stationsArray
+// Function that loads all train stations and places them in stationsArray and stationCodeArray
 var loadTrainStations = function() {
 	$.ajax({
 		type: "POST",
-		url: "_data/getAllStations.xml",
+		url: "_data/stops/AllStations.xml",
 		dataType: "xml",
 		success: function(xml) {
             console.log(xml);
@@ -17,7 +17,7 @@ var loadTrainStations = function() {
 				// Place each station code and name into an array
 				stationsArray.push(stationName);
 				stationCodeArray.push(stationCode);
-				//console.log(stationName);
+
 			});
 		}
 	});
@@ -50,7 +50,7 @@ var sendTrainStation = function() {
 		$.ajax({
 			type: "POST",
 			url: "process/process.php",
-			data: { stationCode: stationCode, station: station },
+			data: { stationCode: stationCode },
 			dataType: "xml",
 			success: function(data) {
                 loadResults(stationCode);
@@ -62,91 +62,55 @@ var sendTrainStation = function() {
 };
 
 var loadResults = function(station) {
-    $.get(("_data/" + station + ".xml"), function(xmlData){
+    $.get(("_data/stations/" + station + ".xml"), function(xmlData){
         showXMLresults(xmlData, "#results");
     });
 };
 
-
+// Displays the XML results fornatted in HTML
 var showXMLresults = function(xmlData, div)  {
-    //console.log(xmlData);
 
     var tableStructure = '<table><tr><th>Origin</th><th>Destination</th><th>Expected Arrival</th><th>Due In</th><th>Train Type</th></tr>';
     var tableRows = '';
     var lastTime = 0;
 
-    $(xmlData).find("objStationData").each(function(index) {
-        console.log(index);
-        var origin = $(this).find("Origin").text();
-        var destination = $(this).find("Destination").text();
-        var expectedArrival = $(this).find("Exparrival").text();
-        var trainType = $(this).find("Traintype").text();
-        var dueTime = $(this).find("Duein").text();
+    console.log($(xmlData).find("objStationData").length);
 
-        var row = '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
+    // Check if there are trains currently available
+    if ($(xmlData).find("objStationData").length == 0) {
+        tableStructure = '<h1>NO REAL TIME INFORMATION AVAILABLE</h1>';
+    } else {
+        // Loops through array to see
+        $(xmlData).find("objStationData").each(function(index) {
+            console.log(index);
+            var origin = $(this).find("Origin").text();
+            var destination = $(this).find("Destination").text();
+            var expectedArrival = $(this).find("Exparrival").text();
+            var trainType = $(this).find("Traintype").text();
+            var dueTime = $(this).find("Duein").text();
 
-        // Set first iteration
-        if(index == 0) {
-            lastTime = dueTime;
-            tableRows += row;
-        } else {
-            // Sort by Due Time
-            if(Number(dueTime) < Number(lastTime)) {
-                console.log(lastTime);
-                tableRows = row + tableRows;
+            var row = '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
+
+            // Set first iteration
+            if(index == 0) {
                 lastTime = dueTime;
-                console.log("Due Time: " + dueTime + " - Last Time:" + lastTime);
-            } else {
-                console.log("The other one");
                 tableRows += row;
+            } else {
+                // Sort by Due Time
+                if(Number(dueTime) < Number(lastTime)) {
+                    console.log(lastTime);
+                    tableRows = row + tableRows;
+                    lastTime = dueTime;
+                    console.log("Due Time: " + dueTime + " - Last Time:" + lastTime);
+                } else {
+                    console.log("The other one");
+                    tableRows += row;
+                }
             }
-        }
-
-        //tableRows += '<tr><td>' + origin + '</td>' + '<td>' + destination + '</td>' + '<td>' + expectedArrival + '</td>' + '<td>' + dueTime + ' Minutes' + '</td>' + '<td>' + trainType + '</td></tr>';
-
-    });
-
-    tableStructure += tableRows + '</table>'
+        });
+        tableStructure += tableRows + '</table>'
+    }
     $(div).html(tableStructure);
-}
-
-function loadXMLDoc(filename)
-{
-    if (window.ActiveXObject)
-    {
-        xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-    }
-    else
-    {
-        xhttp = new XMLHttpRequest();
-    }
-    xhttp.open("GET", filename, false);
-    try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-    xhttp.send("");
-    return xhttp.responseXML;
-}
-
-
-function displayResult(xmlFile, div)
-{
-    //xml = loadXMLDoc("_data/" + xmlFile);
-    xml = xmlFile;
-    xsl = loadXMLDoc("process/TrainDisplay.xsl");
-    console.log(typeof xsl);
-// code for IE
-    if (window.ActiveXObject || xhttp.responseType == "msxml-document")
-    {
-        ex = xml.transformNode(xsl);
-        document.getElementById(div).innerHTML = ex;
-    }
-// code for Chrome, Firefox, Opera, etc.
-    else if (document.implementation && document.implementation.createDocument)
-    {
-        xsltProcessor = new XSLTProcessor();
-        xsltProcessor.importStylesheet(xsl);
-        resultDocument = xsltProcessor.transformToFragment(xml, document);
-        document.getElementById(div).appendChild(resultDocument);
-    }
 }
 
 $(document).ready(function(){ 

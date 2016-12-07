@@ -44,7 +44,7 @@ var sendTrainStation = function() {
 			}
 		});
 
-		console.log(station);
+		//console.log(station);
 
         // Send data to be processed
 		$.ajax({
@@ -62,13 +62,20 @@ var sendTrainStation = function() {
 };
 
 var loadResults = function(station) {
-    $.get(("_data/stations/" + station + ".xml"), function(xmlData){
-        showXMLresults(xmlData, "#results");
+    $.ajax({
+        type: "GET",
+        url: ("_data/stations/" + station + ".xml"),
+        cache: false,
+        success: function(xmlData) {
+            showXMLresults(xmlData, "#results");
+        }
     });
 };
 
 // Displays the XML results fornatted in HTML
 var showXMLresults = function(xmlData, div)  {
+
+    console.log("Data: " + xmlData);
 
     var tableStructure = '<table><tr><th>Origin</th><th>Destination</th><th>Expected Arrival</th><th>Due In</th><th>Train Type</th></tr>';
     var tableRows = '';
